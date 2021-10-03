@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dollar clicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="new.css">
+
+</head>
+<body>
+
+<div class="zdravim">
+    <div class="dobry">
+        <h1>Dollars:  <span id="dollarcount">0</span>&#128181</h1>
+    </div>
+
+    <div class="cau">
+        <a><img id="peniz" src="dollar.png" onclick="addMoney(ammount)"></a>
+        <p id="penizzasekundu">Vyděláváš 0&#128181 za sekundu</p>
+        <button class="nakup" onClick="buyAutoClick()"><p id="costAutoClick">Autoclicker 10&#128181</p></button>
+        <button class="nakup" onclick="Click()"><p id="upgradePrice">Doubleclick(+1) 5&#128181</p></button>
+        <button id="nic" onmousedown="start()"onmouseup="end()"></button>
+    </div>
+
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>

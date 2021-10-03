@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h1{
+    margin-top:5px;
+    margin-bottom: 5px;
+    color: greenyellow;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.20;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.cau {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    height: 100%;
+}
+
+.dobry, button {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.zdravim {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
+    -ms-flex-pack: justify;
+    padding: 1.0rem;
+    opacity: 0.9;
+}
+
+.zdravim .dobry{
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+    color: greenyellow;
+    font-weight: 800;
+    font-size: 25px;
+    background-color: black;
+}
+
+.cau img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.cau p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #000;
+    padding-bottom: 10px;
+    color: greenyellow;
+}
+
+.cau .nakup{
+    border: 3px solid greenyellow;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 65px;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 0px;
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#peniz {
+    width: 600px;
+    height: 350px;
+    animation: appear 2s;
+}
+#peniz:hover{
+    cursor: pointer;
+    transform: scale(1.40, 1.40);
+    transition-duration: 0.5s;
+}
+#nic{
+    height: 5px;
+    width: 5px;
+    background-color:rgba(61, 55, 65, 1);
+}
